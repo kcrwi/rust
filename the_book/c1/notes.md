@@ -1,0 +1,12 @@
+# Cargo
+- Det buildtool som används.
+    - Check
+        - Kompilera (analysera?) utan att bygga
+    - Build
+        - Bygger till target/debug
+        - Icke optimizerat, kan vara långsammare än väntat
+        - "build --release" för en optimerad release-version
+    - Run
+        - Kompilerar samt kör programmet (make more or less)
+- TOML-filer (toms obviously minimal language)
+    - Används för cargos cofig-filer
